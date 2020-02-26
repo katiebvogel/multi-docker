@@ -34,7 +34,7 @@ class Fib extends Component {
     renderSeenIndexes() {
         //print out all the numbers in the array from postgres
         // return this.state.seenIndexes.map(({ number }) => number).join(', ');
-        return this.state.seenIndexes;
+        return 'I have seen some things';
     }
 
     renderValues() {
